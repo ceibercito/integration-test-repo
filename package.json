@@ -1,0 +1,26 @@
+{
+  "name": "github-integration",
+  "version": "1.0.0",
+  "description": "integracion nodejs github travis heroku",
+  "main": "main.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/ceibercito/integration-test-repo.git"
+  },
+  "author": "Ceiber Garibay",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.0",
+    "jshint": "^2.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
+}
